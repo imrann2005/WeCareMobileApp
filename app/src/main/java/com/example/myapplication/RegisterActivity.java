@@ -47,7 +47,15 @@ public class RegisterActivity extends AppCompatActivity {
                 } else {
                     if (password.compareTo(confirm) == 0) {
                         if(isValid(password)){
-                        db.register(username,email,password);
+
+                            try {
+                                db.register(username,email,password);
+                            }catch (RuntimeException e){
+                                Toast.makeText(getApplicationContext(),"Error in saving Data",Toast.LENGTH_SHORT).show();
+                            }
+
+
+
                             Toast.makeText(getApplicationContext(), "Record Inserted", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(RegisterActivity.this,LoginActivity.class));
                         }

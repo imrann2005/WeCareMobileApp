@@ -15,13 +15,13 @@ public class FindDoctorActivity extends AppCompatActivity {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_find_doctor );
 
-        CardView exit = findViewById( R.id.cardFDBack );
-        exit.setOnClickListener( new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity( new Intent( FindDoctorActivity.this, HomeActivity.class ) );
-            }
-        } );
+//        CardView exit = findViewById( R.id.cardFDBack );
+//        exit.setOnClickListener( new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                startActivity( new Intent( FindDoctorActivity.this, HomeActivity.class ) );
+//            }
+//        } );
         CardView familyphysician = findViewById( R.id.cardFDFamilyPhysician );
         familyphysician.setOnClickListener( new View.OnClickListener() {
             @Override

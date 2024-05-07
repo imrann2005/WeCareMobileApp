@@ -28,6 +28,7 @@ public class Database extends SQLiteOpenHelper {
 
     }
 
+
     public void register(String username, String email, String password) {
         ContentValues cv = new ContentValues();
         cv.put("username", username);
@@ -49,7 +50,7 @@ public class Database extends SQLiteOpenHelper {
         if (c.moveToFirst()) {
             result = 1;
         }
-
+        c.close();
         return result;
     }
 
@@ -76,6 +77,7 @@ public class Database extends SQLiteOpenHelper {
             result = 1;
         }
         db.close();
+        c.close();
         return result;
     }
 

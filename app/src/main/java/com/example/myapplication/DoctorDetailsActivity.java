@@ -103,7 +103,7 @@ public class DoctorDetailsActivity extends AppCompatActivity {
             }
         } );
 
-        list = new ArrayList();
+        list = new ArrayList();//List of hashmaps i.e. list of key value pairs
         for (int i=0;i<doctor_details.length; i++){
             item= new HashMap<String, String>();
             item.put("line1", doctor_details[i][0]);

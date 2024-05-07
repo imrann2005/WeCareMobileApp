@@ -60,7 +60,7 @@ public class HomeActivity extends AppCompatActivity {
         img1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(HomeActivity.this, FindDoctorActivity.class));
+                startActivity(new Intent(HomeActivity.this, LabTestActivity.class));
             }
         });
 
@@ -68,7 +68,7 @@ public class HomeActivity extends AppCompatActivity {
         img2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(HomeActivity.this, LabTestActivity.class));
+                startActivity(new Intent(HomeActivity.this, FindDoctorActivity.class));
             }
         });
         //CardView health = findViewById(R.id.cardHealthDoctor);
