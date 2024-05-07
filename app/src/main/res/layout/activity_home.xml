@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@drawable/homepagepic">
+
+    <TextView
+        android:id="@+id/titleHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
+        android:text="WeCare"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+<!--    <GridLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_below="@id/titleHome"-->
+<!--        android:layout_marginStart="20dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:layout_marginEnd="20dp"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--       android:columnCount="1"-->
+<!--        android:rowCount="3" >-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="207dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/cardLabTest"-->
+<!--            android:layout_width="281dp"-->
+<!--            android:layout_height="506dp"-->
+<!--            android:layout_row="0"-->
+<!--            android:layout_rowWeight="1"-->
+<!--            android:layout_column="0"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_gravity="fill"-->
+<!--            app:cardBackgroundColor="@color/teal_200"-->
+<!--            app:cardCornerRadius="8dp"-->
+<!--            app:cardElevation="8dp"-->
+<!--            app:cardUseCompatPadding="true"-->
+<!--            tools:ignore="ObsoleteLayoutParam">-->
+
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/cardBuyMedicine"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_row="0"-->
+<!--            android:layout_rowWeight="1"-->
+<!--            android:layout_column="1"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_gravity="fill"-->
+<!--            app:cardBackgroundColor="@color/teal_200"-->
+<!--            app:cardCornerRadius="8dp"-->
+<!--            app:cardElevation="8dp"-->
+<!--            app:cardUseCompatPadding="true"-->
+<!--            tools:ignore="ObsoleteLayoutParam">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="BUY MEDICINE"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:textColor="@color/colorRed"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:gravity="center" />-->
+<!--            </LinearLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/cardFindDoctor"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_row="1"-->
+<!--            android:layout_rowWeight="1"-->
+<!--            android:layout_column="0"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_gravity="fill"-->
+<!--            app:cardBackgroundColor="@color/teal_200"-->
+<!--            app:cardCornerRadius="8dp"-->
+<!--            app:cardElevation="8dp"-->
+<!--            app:cardUseCompatPadding="true"-->
+<!--            tools:ignore="ObsoleteLayoutParam">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="156dp"-->
+<!--                    android:layout_height="108dp"-->
+<!--                    android:src="@drawable/chat"-->
+<!--                    android:layout_gravity="center"/>-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="FIND DOCTOR"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:textColor="@color/colorRed"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:gravity="center" />-->
+<!--            </LinearLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/cardHealthDoctor"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_row="1"-->
+<!--            android:layout_rowWeight="1"-->
+<!--            android:layout_column="1"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_gravity="fill"-->
+<!--            app:cardBackgroundColor="@color/teal_200"-->
+<!--            app:cardCornerRadius="8dp"-->
+<!--            app:cardElevation="8dp"-->
+<!--            app:cardUseCompatPadding="true"-->
+<!--            tools:ignore="ObsoleteLayoutParam">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="156dp"-->
+<!--                    android:layout_height="108dp"-->
+<!--                    android:src="@drawable/calendar"-->
+<!--                    android:layout_gravity="center"/>-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="HEALTH ARTICLES"-->
+<!--                    android:textAlignment="center"-->
+<!--                    android:textColor="@color/colorRed"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:gravity="center" />-->
+<!--            </LinearLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/cardOrderDetails"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_row="2"-->
+<!--            android:layout_rowWeight="1"-->
+<!--            android:layout_column="0"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_gravity="fill"-->
+<!--            app:cardBackgroundColor="@color/teal_200"-->
+<!--            app:cardCornerRadius="8dp"-->
+<!--            app:cardElevation="8dp"-->
+<!--            app:cardUseCompatPadding="true"-->
+<!--            tools:ignore="ObsoleteLayoutParam">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="156dp"-->
+<!--                    android:layout_height="108dp"-->
+<!--                    android:src="@drawable/widgets"-->
+<!--                    android:layout_gravity="center"/>-->
+
+<!--            </LinearLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/cardExit"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_row="2"-->
+<!--            android:layout_rowWeight="1"-->
+<!--            android:layout_column="1"-->
+<!--            android:layout_columnWeight="1"-->
+<!--            android:layout_gravity="fill"-->
+<!--            app:cardBackgroundColor="@color/teal_200"-->
+<!--            app:cardCornerRadius="8dp"-->
+<!--            app:cardElevation="8dp"-->
+<!--            app:cardUseCompatPadding="true"-->
+<!--            tools:ignore="ObsoleteLayoutParam">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:orientation="vertical">-->
+
+<!--            </LinearLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+
+
+<!--    </GridLayout>-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--        android:id="@+id/log"-->
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="70dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logoutpic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.916"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/logout"
+            android:layout_width="79dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="263dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="640dp"
+            android:gravity="left"
+            android:text="LOGOUT"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.611"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            app:layout_constraintVertical_bias="0.875" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="156dp"
+            android:layout_height="166dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/healthtipsicon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="156dp"
+            android:layout_height="166dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/doctorfindericon"
+            app:layout_constraintBottom_toTopOf="@+id/textView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img1"
+            app:layout_constraintVertical_bias="0.763" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="156dp"
+            android:layout_height="166dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="7dp"
+            android:src="@drawable/labnewicon"
+            app:layout_constraintBottom_toBottomOf="@+id/textView7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.514"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logout"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:layout_marginBottom="14dp"
+            android:gravity="center"
+            android:text="Health Tips"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img3"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Find Doctor"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/img3"
+            app:layout_constraintTop_toBottomOf="@+id/img2"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_marginBottom="14dp"
+            android:gravity="center"
+            android:text="Lab Test"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/img2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img1" />
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="156dp"-->
+        <!--            android:layout_height="108dp"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:src="@drawable/language"-->
+        <!--            tools:layout_editor_absoluteX="153dp"-->
+        <!--            tools:layout_editor_absoluteY="272dp" />-->
+
+        <!--        <TextView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:gravity="center"-->
+        <!--            android:text="ORDER DETAILS"-->
+        <!--            android:textAlignment="center"-->
+        <!--            android:textColor="@color/colorRed"-->
+        <!--            android:textStyle="bold"-->
+        <!--            tools:layout_editor_absoluteX="159dp"-->
+        <!--            tools:layout_editor_absoluteY="408dp" />-->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

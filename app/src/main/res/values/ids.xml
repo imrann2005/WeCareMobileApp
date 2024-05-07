@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextAppFullName" type="id" />
+    <item name="textViewExistingUser" type="id" />
+    <item name="buttonBookAppointment" type="id" />
+    <item name="titleFindDoctorTop" type="id" />
+    <item name="line_a" type="id" />
+    <item name="line_b" type="id" />
+    <item name="line_c" type="id" />
+    <item name="line_d" type="id" />
+    <item name="line_e" type="id" />
+    <item name="textViewAppTitle" type="id" />
+    <item name="buttonLTGoToCart" type="id" />
+    <item name="editTextLDTextMultiline" type="id" />
+    <item name="cardhealthArticles" type="id" />
+</resources>
