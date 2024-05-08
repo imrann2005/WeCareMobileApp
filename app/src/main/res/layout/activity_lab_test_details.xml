@@ -4,24 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back2"
+    android:background="@drawable/homepagepic"
     tools:context=".LabTestActivity">
+
+    <!-- Add other views with appropriate constraints -->
 
     <TextView
         android:id="@+id/textViewLDName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="MEDIFINDR"
+        android:text="WeCare"
         android:textColor="@color/purple_200"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <!-- Add other views with appropriate constraints -->
 
     <TextView
         android:id="@+id/textViewLDPackageName"
@@ -98,6 +98,7 @@
                                 4. Serum
                                      5.  Liver Function"
 
+        android:textAlignment="center"
         android:textSize="28dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/buttonLDBack"
