@@ -8,6 +8,23 @@
     tools:context=".HealthArticlesDetailsActivity">
 
 
+
+    <TextView
+        android:id="@+id/textViewHADName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WeCare"
+        android:textColor="@color/purple_200"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+
+
     <TextView
         android:id="@+id/textViewHADTitle"
         android:layout_width="228dp"
@@ -39,7 +56,10 @@
         android:id="@+id/imageView5"
         android:layout_width="166dp"
         android:layout_height="81dp"
-        app:srcCompat="@drawable/wecareicon"
-        tools:layout_editor_absoluteX="122dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wecareicon" />
 </androidx.constraintlayout.widget.ConstraintLayout>
