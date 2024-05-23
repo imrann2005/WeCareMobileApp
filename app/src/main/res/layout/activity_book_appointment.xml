@@ -127,7 +127,7 @@
         android:id="@+id/editTextAppFees"
         android:layout_width="344dp"
         android:layout_height="48dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/input_bg"
         android:drawableLeft="@drawable/ic_baseline_person_24"
         android:drawablePadding="10dp"
@@ -142,7 +142,7 @@
         android:textColor="@color/colorBlack"
         android:textColorHint="@color/colorWhite"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintHorizontal_bias="0.462"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextAppContactNumber"
         tools:ignore="HardcodedText,MissingConstraints" />
@@ -154,19 +154,21 @@
         android:layout_marginTop="216dp"
         android:background="@drawable/btn_bg"
         android:text="BOOK APPOINTMENT"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextAppFees" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextAppFees"
+        app:layout_constraintVertical_bias="0.22" />
 
     <Button
         android:id="@+id/buttonAppDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="24dp"
         android:text="20/12/2023"
         android:textColor="#2181F8"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintHorizontal_bias="0.092"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView5"
         tools:ignore="MissingConstraints" />
@@ -188,10 +190,10 @@
         android:id="@+id/buttonAppTime"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="24dp"
         android:text="10.00"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.851"
+        app:layout_constraintHorizontal_bias="0.854"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         tools:ignore="DuplicateIds,MissingConstraints" />

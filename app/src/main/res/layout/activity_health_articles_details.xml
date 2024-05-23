@@ -4,60 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back1"
+    android:background="@drawable/homepagepic"
     tools:context=".HealthArticlesDetailsActivity">
-
-    <TextView
-        android:id="@+id/textViewHADName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MEDIFINDR"
-        android:textColor="@color/purple_200"
-        android:textSize="34dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.045" />
 
 
     <TextView
         android:id="@+id/textViewHADTitle"
         android:layout_width="228dp"
         android:layout_height="48dp"
-        android:text="Dentist"
-        android:textColor="@color/colorWhite"
+        android:text="Health Tips "
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.546"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.127" />
-
-    <Button
-        android:id="@+id/buttonHADBack"
-        android:layout_width="137dp"
-        android:layout_height="62dp"
-        android:layout_marginBottom="32dp"
-        android:background="@drawable/btn_bg"
-        android:text="Back"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintVertical_bias="0.168" />
 
     <ImageView
         android:id="@+id/imageViewHAD"
         android:layout_width="387dp"
         android:layout_height="401dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="40dp"
         android:src="@drawable/health1"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewHADTitle" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="166dp"
+        android:layout_height="81dp"
+        app:srcCompat="@drawable/wecareicon"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="16dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

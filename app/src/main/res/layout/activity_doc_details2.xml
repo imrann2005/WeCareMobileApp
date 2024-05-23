@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_15"
+    tools:context=".DocDetails2">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="129dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="28dp"
+        android:text="WeCare"
+        android:textAlignment="center"
+        android:textColor="#161E1D"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="81dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.978"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/doctorfindericon" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="128dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wecareicon" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="194dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="92dp"
+        android:text="Let's FInd Doctors For You !"
+        android:textAlignment="center"
+        android:textColor="#702C27"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

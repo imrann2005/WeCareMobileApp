@@ -76,7 +76,7 @@ public class DoctorDetailsActivity extends AppCompatActivity {
         setContentView( R.layout.activity_doctor_details );
 
         tv = findViewById(R.id.textViewLDPackageName);
-        btn = findViewById(R.id.buttonLTBack);
+        //btn = findViewById(R.id.buttonLTBack);
 
         Intent it = getIntent();
         String title= it.getStringExtra("title");
@@ -96,12 +96,12 @@ public class DoctorDetailsActivity extends AppCompatActivity {
             doctor_details=doctor_details5;
 
 
-        btn.setOnClickListener( new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(DoctorDetailsActivity.this, FindDoctorActivity.class));
-            }
-        } );
+//        btn.setOnClickListener( new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                startActivity(new Intent(DoctorDetailsActivity.this, FindDoctorActivity.class));
+//            }
+//        } );
 
         list = new ArrayList();//List of hashmaps i.e. list of key value pairs
         for (int i=0;i<doctor_details.length; i++){
@@ -123,19 +123,32 @@ public class DoctorDetailsActivity extends AppCompatActivity {
 
         ListView lst = findViewById(R.id.listViewLT);
         lst.setAdapter(sa);
+        btn = findViewById(R.id.bookingbtn);
 
-        lst.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        btn.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                Intent it = new Intent(DoctorDetailsActivity.this,BookAppointmentActivity.class);
-                it.putExtra("text1",title);
-                it.putExtra("text2",doctor_details[i][0]);
-                it.putExtra("text3",doctor_details[i][1]);
-                it.putExtra("text4",doctor_details[i][3]);
-                it.putExtra("text5",doctor_details[i][4]);
+            public void onClick(View v) {
+                Intent it = new Intent(DoctorDetailsActivity.this, BookAppointmentActivity.class);
+//                it.putExtra("text1",title);
+//                it.putExtra("text2",doctor_details[0][0]);
+//                it.putExtra("text3",doctor_details[0][1]);
+//                it.putExtra("text4",doctor_details[0][3]);
+//                it.putExtra("text5",doctor_details[0][4]);
                 startActivity(it);
-
             }
         });
+//        lst.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+//                Intent it = new Intent(DoctorDetailsActivity.this,BookAppointmentActivity.class);
+//                it.putExtra("text1",title);
+//                it.putExtra("text2",doctor_details[i][0]);
+//                it.putExtra("text3",doctor_details[i][1]);
+//                it.putExtra("text4",doctor_details[i][3]);
+//                it.putExtra("text5",doctor_details[i][4]);
+//                startActivity(it);
+//
+//            }
+//        });
     }
 }
